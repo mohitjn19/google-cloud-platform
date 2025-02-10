@@ -1,0 +1,14 @@
+{
+  "pysparkBatch": {
+    "mainPythonFileUri": "gs://gs-code/main.py",
+    "args": [
+      "--app-name",
+      "refined2integrated-app",
+      "--layer",
+      "refined2integrated"
+    ],
+    "jarFileUris": [
+      "gs://gs-code/lib/spark-3.2-bigquery-0.35.1.jar"
+    ]
+  }
+}
